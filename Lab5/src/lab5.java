@@ -1,7 +1,5 @@
 import java.util.*;
-
 public class lab5 {
-
 	public static void main(String[] args) {
 		System.out.println("Welcome to the factorial calculator!");
 		while (true) {
@@ -12,10 +10,10 @@ public class lab5 {
 			if (goAgain.equals("n")) {
 				break;
 			}
-		}		
+		}
+		
 }
 	public static void factorial() {
-		int count = 0;
 		Scanner JavaInput = new Scanner (System.in);
 		System.out.println("Please enter a number between 1 and 10: ");
 		int number = JavaInput.nextInt();
@@ -31,5 +29,3 @@ public class lab5 {
         System.out.println(factorial);
 		}
 	}
-		
-		
